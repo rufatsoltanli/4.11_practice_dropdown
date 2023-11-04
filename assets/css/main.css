@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.cont {
+  width: 600px;
+  height: 300px;
+  margin: 5% auto;
+}
+.cont .list {
+  background-color: rgb(68, 93, 126);
+  color: aliceblue;
+  padding: 10px;
+  text-align: center;
+}
+.cont .list .visible {
+  background: rgb(14, 21, 49);
+  height: 70px;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.unvisible {
+  height: 0px !important;
+  transition: 1s;
+  overflow: hidden;
+}/*# sourceMappingURL=main.css.map */
